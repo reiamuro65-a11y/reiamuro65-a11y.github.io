@@ -1,0 +1,245 @@
+/* ==========================================================================
+   作品墙 works.css —— 廖安心 · 个人求职作品集
+   --------------------------------------------------------------------------
+   设计约束（用户明确要求）：
+     1. 不破坏作品画幅比例 → 每张卡片的 aspect-ratio 精确等于原图像素比，
+        图片用 object-fit:contain，任何情况下都不会裁切或拉伸。
+     2. 预留位置 → 每组末尾有 .wk_slot 虚线空位，追加作品时照抄一张卡片即可。
+   命名一律用 wk_ 前缀，且不使用 .cont / .cont_box —— 避免与站点原有 GSAP
+   选择器（'.portfolio_cont .cont_box .cont'）冲突。
+   ========================================================================== */
+
+.wk_cont {position: relative; z-index: 12; margin-top: var(--pd1);}
+
+/* ---------- 标题区 ---------- */
+.wk_head {color: var(--point01);}
+.wk_tag {display: inline-flex; align-items: center; gap: 0.7em;
+    font-size: var(--p3); font-weight: 700; letter-spacing: 0.04em;}
+.wk_tag::before {content: ""; width: 0.5em; height: 0.5em; border-radius: 50%;
+    background: var(--point01); box-shadow: 0 0 0 0.35em rgba(255, 94, 16, 0.16);}
+.wk_h3 {font-size: var(--h3); font-weight: 700; line-height: 1.2;
+    color: #fff; margin-top: 2.2rem;}
+.wk_desc {font-size: var(--p4); line-height: 1.75; margin-top: 1.6rem;
+    color: rgba(255, 255, 255, 0.6); max-width: 76rem;}
+.wk_desc b {color: var(--point01); font-weight: 700;}
+
+/* ---------- 分类切换（纯 CSS：radio + :checked ~ 兄弟选择器，无 JS） ---------- */
+.wk_radio {position: absolute; width: 0; height: 0; opacity: 0; pointer-events: none;}
+.wk_tabs {display: flex; flex-wrap: wrap; gap: 1rem; margin-top: var(--contMt2);}
+.wk_tab {display: inline-flex; align-items: center; font-size: var(--p4); font-weight: 600;
+    color: rgba(255, 255, 255, 0.66); background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 10em;
+    padding: 0.95em 1.5em; cursor: pointer; user-select: none;
+    transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;}
+.wk_tab:hover {color: #fff; background: rgba(255, 255, 255, 0.12);}
+.wk_tab b {font-weight: 700; font-size: 0.82em; margin-left: 0.6em;
+    opacity: 0.55; font-variant-numeric: tabular-nums;}
+
+#wk-t-video:checked    ~ .wk_in .wk_tab[for="wk-t-video"],
+#wk-t-aiart:checked    ~ .wk_in .wk_tab[for="wk-t-aiart"],
+#wk-t-poster:checked   ~ .wk_in .wk_tab[for="wk-t-poster"],
+#wk-t-portrait:checked ~ .wk_in .wk_tab[for="wk-t-portrait"],
+#wk-t-product:checked  ~ .wk_in .wk_tab[for="wk-t-product"] {
+    color: #fff; background: var(--point01); border-color: var(--point01);}
+#wk-t-video:checked    ~ .wk_in .wk_tab[for="wk-t-video"] b,
+#wk-t-aiart:checked    ~ .wk_in .wk_tab[for="wk-t-aiart"] b,
+#wk-t-poster:checked   ~ .wk_in .wk_tab[for="wk-t-poster"] b,
+#wk-t-portrait:checked ~ .wk_in .wk_tab[for="wk-t-portrait"] b,
+#wk-t-product:checked  ~ .wk_in .wk_tab[for="wk-t-product"] b {opacity: 0.85;}
+
+.wk_panel {display: none;}
+#wk-t-video:checked    ~ .wk_in #wk-p-video,
+#wk-t-aiart:checked    ~ .wk_in #wk-p-aiart,
+#wk-t-poster:checked   ~ .wk_in #wk-p-poster,
+#wk-t-portrait:checked ~ .wk_in #wk-p-portrait,
+#wk-t-product:checked  ~ .wk_in #wk-p-product {display: block;}
+
+.wk_pdesc {font-size: var(--p4); color: rgba(255, 255, 255, 0.55);
+    margin-top: var(--contMt3); line-height: 1.7;}
+
+/* ---------- 作品网格：CSS 多列瀑布流，天然适配混合画幅 ---------- */
+.wk_grid {column-count: 4; column-gap: 2.4rem; margin-top: var(--contMt2);}
+/* 16:9 横构图（品牌海报）用 2 列，保证海报细节看得清 */
+.wk_grid--wide {column-count: 2;}
+.wk_card, .wk_slot {break-inside: avoid; -webkit-column-break-inside: avoid;
+    page-break-inside: avoid; margin: 0 0 2.4rem;}
+
+/* 内框比例 = 原图比例；contain 保证永不裁切/拉伸 */
+.wk_frame {position: relative; width: 100%; aspect-ratio: var(--wk-ar, 1 / 1);
+    border-radius: 1.6rem; overflow: hidden; background: rgba(255, 255, 255, 0.05);
+    isolation: isolate;}
+.wk_frame img, .wk_frame video {display: block; width: 100%; height: 100%;
+    object-fit: contain; object-position: center; background: transparent;}
+.wk_frame img {transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);}
+.wk_card:hover .wk_frame img {transform: scale(1.035);}
+.wk_card--video .wk_frame {background: #0d0d0f;}
+
+/* 播放角标 */
+.wk_play {position: absolute; left: 50%; top: 50%; width: 6.4rem; height: 6.4rem;
+    margin: -3.2rem 0 0 -3.2rem; border-radius: 50%; background: rgba(255, 94, 16, 0.94);
+    display: flex; align-items: center; justify-content: center; pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 0.8rem 2.4rem rgba(0, 0, 0, 0.45);}
+.wk_play::after {content: ""; margin-left: 0.5rem;
+    border-left: 1.8rem solid #fff; border-top: 1.1rem solid transparent;
+    border-bottom: 1.1rem solid transparent;}
+.wk_card--video:hover .wk_play {opacity: 0; transform: scale(0.85);}
+
+/* ---------- 图注 ---------- */
+.wk_cap {display: flex; align-items: baseline; justify-content: space-between;
+    gap: 1.2rem; margin-top: 1.2rem; padding: 0 0.2rem;}
+.wk_name {font-size: var(--p5); font-weight: 600; color: rgba(255, 255, 255, 0.92);
+    line-height: 1.45;}
+.wk_meta {font-size: var(--p7); color: rgba(255, 255, 255, 0.42); white-space: nowrap;
+    font-variant-numeric: tabular-nums; flex-shrink: 0;}
+
+/* ---------- 预留空位 ---------- */
+.wk_slot {aspect-ratio: var(--wk-ar, 2 / 3); border: 2px dashed rgba(255, 255, 255, 0.16);
+    border-radius: 1.6rem; background: rgba(255, 255, 255, 0.02);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 0.6rem; color: rgba(255, 255, 255, 0.34);
+    transition: border-color 0.3s ease, color 0.3s ease, background-color 0.3s ease;}
+.wk_slot:hover {border-color: rgba(255, 94, 16, 0.6); color: var(--point01);
+    background: rgba(255, 94, 16, 0.05);}
+.wk_plus {font-size: 3.4rem; font-weight: 300; line-height: 1;}
+.wk_stxt {font-size: var(--p6); letter-spacing: 0.06em;}
+
+/* ---------- 置顶主打：该组最完整的作品单独放大，不进瀑布流 ---------- */
+/* 只加宽，不 reshape —— aspect-ratio 仍来自真实像素，画幅不变 */
+.wk_feature {max-width: 78%; margin-top: var(--contMt2);}
+.wk_feature .wk_frame {border-radius: 2rem;}
+.wk_feature .wk_cap {margin-top: 1.6rem;}
+.wk_feature .wk_name {font-size: var(--p3); font-weight: 600;}
+
+/* ---------- 响应式 ---------- */
+@media (max-width: 1400px) {
+    .wk_grid {column-count: 3;}
+    .wk_grid--wide {column-count: 2;}
+}
+@media (max-width: 1040px) {
+    .wk_grid {column-count: 2; column-gap: 1.5rem;}
+    .wk_grid--wide {column-count: 1;}
+    .wk_card, .wk_slot {margin-bottom: 1.5rem;}
+    .wk_h3 {font-size: var(--h5);}
+    .wk_desc {font-size: 13px;}
+    .wk_tag {font-size: 13px;}
+    .wk_tabs {gap: 0.8rem; margin-top: 2.4rem;}
+    .wk_tab {font-size: 12px; padding: 0.8em 1.2em;}
+    .wk_play {width: 4.8rem; height: 4.8rem; margin: -2.4rem 0 0 -2.4rem;}
+    .wk_play::after {border-left-width: 1.3rem; border-top-width: 0.8rem; border-bottom-width: 0.8rem;}
+}
+@media (max-width: 640px) {
+    .wk_grid {column-count: 2; column-gap: 1rem;}
+    .wk_grid--wide {column-count: 1;}
+    .wk_card, .wk_slot {margin-bottom: 1rem;}
+    .wk_name {font-size: 11px;}
+    .wk_meta {display: none;}
+    .wk_pdesc {font-size: 12px; margin-top: 2rem;}
+    /* 手机屏本来就窄，主打卡不该再留白 —— 撑满 */
+    .wk_feature {max-width: 100%;}
+    .wk_feature .wk_frame {border-radius: 1.2rem;}
+    .wk_feature .wk_name {font-size: 12px;}
+    /* 主打位是视频，时长是核心信息，小屏也要留着 */
+    .wk_feature .wk_meta {display: block; font-size: 11px;}
+    .wk_feature .wk_cap {align-items: flex-start; gap: 0.8rem;}
+}
+
+/* ==========================================================================
+   点击放大（灯箱）—— 由 public/inc/js/works-wall.js 控制
+   ========================================================================== */
+
+.wk_frame {cursor: zoom-in;}
+.wk_card--video .wk_frame {cursor: default;}
+
+/* 右上角放大按钮：视频卡靠它进灯箱（点视频本身留给原生控件） */
+.wk_expand {position: absolute; right: 1rem; top: 1rem; z-index: 3;
+    width: 3.4rem; height: 3.4rem; border: 0; padding: 0.8rem; border-radius: 0.9rem;
+    background: rgba(15, 15, 17, 0.62); color: #fff; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    opacity: 0; transform: translateY(-0.4rem);
+    transition: opacity 0.25s ease, transform 0.25s ease, background-color 0.25s ease;
+    -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);}
+.wk_expand svg {width: 100%; height: 100%; display: block;}
+.wk_card:hover .wk_expand,
+.wk_expand:focus-visible {opacity: 1; transform: none;}
+.wk_expand:hover {background: var(--point01);}
+
+html.wk_lb_locked {overflow: hidden;}
+
+.wk_lb {position: fixed; inset: 0; z-index: 999999; display: none;
+    font-family: inherit; color: #fff;}
+.wk_lb.is_open {display: block;}
+.wk_lb_backdrop {position: absolute; inset: 0; background: rgba(8, 8, 10, 0.93);
+    -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+    animation: wkLbFade 0.22s ease;}
+@keyframes wkLbFade {from {opacity: 0;} to {opacity: 1;}}
+
+.wk_lb_body {position: absolute; inset: 0; display: flex; flex-direction: column;
+    padding: clamp(12px, 2.4vh, 26px) clamp(12px, 2.6vw, 40px); box-sizing: border-box;
+    animation: wkLbRise 0.26s cubic-bezier(0.22, 1, 0.36, 1);}
+@keyframes wkLbRise {from {opacity: 0; transform: translateY(1.2rem);} to {opacity: 1; transform: none;}}
+
+.wk_lb_top {display: flex; align-items: center; gap: 1.6rem; flex-shrink: 0;
+    padding-bottom: clamp(10px, 1.6vh, 18px);}
+.wk_lb_info {display: flex; flex-direction: column; gap: 0.35em; min-width: 0;}
+.wk_lb_title {font-size: clamp(14px, 1.5vw, 20px); font-weight: 700; color: #fff;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.wk_lb_meta {font-size: clamp(11px, 1vw, 13px); color: rgba(255, 255, 255, 0.5);
+    font-variant-numeric: tabular-nums;}
+.wk_lb_count {margin-left: auto; font-size: clamp(11px, 1vw, 13px);
+    color: rgba(255, 255, 255, 0.55); font-variant-numeric: tabular-nums;}
+.wk_lb.is_single .wk_lb_count {visibility: hidden;}
+
+.wk_lb_btn {border: 0; padding: 0; cursor: pointer; color: #fff; flex-shrink: 0;
+    width: 4.4rem; height: 4.4rem; border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1); display: flex; align-items: center;
+    justify-content: center; transition: background-color 0.22s ease, transform 0.22s ease;}
+.wk_lb_btn svg {width: 2rem; height: 2rem; display: block;}
+.wk_lb_btn:hover {background: var(--point01); transform: scale(1.06);}
+
+.wk_lb_stage {flex: 1; min-height: 0; display: flex; align-items: center;
+    justify-content: center; position: relative;}
+.wk_lb_media {max-width: 100%; max-height: 100%; display: flex;
+    align-items: center; justify-content: center;}
+.wk_lb_el {display: block; max-width: 100%; max-height: 100%;
+    width: auto; height: auto; object-fit: contain;
+    border-radius: 1.2rem; box-shadow: 0 2.4rem 7rem rgba(0, 0, 0, 0.6);}
+video.wk_lb_el {background: #000;}
+
+.wk_lb_nav {position: absolute; top: 50%; transform: translateY(-50%);
+    width: 5.6rem; height: 5.6rem; border: 0; padding: 0; cursor: pointer;
+    border-radius: 50%; color: #fff; z-index: 2;
+    background: rgba(255, 255, 255, 0.1); display: flex; align-items: center;
+    justify-content: center; transition: background-color 0.22s ease, transform 0.22s ease;
+    -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);}
+.wk_lb_nav svg {width: 2.4rem; height: 2.4rem; display: block;}
+.wk_lb_nav:hover {background: var(--point01);}
+.wk_lb_prev {left: clamp(8px, 1.4vw, 22px);}
+.wk_lb_next {right: clamp(8px, 1.4vw, 22px);}
+.wk_lb_prev:hover {transform: translateY(-50%) translateX(-0.3rem);}
+.wk_lb_next:hover {transform: translateY(-50%) translateX(0.3rem);}
+.wk_lb.is_single .wk_lb_nav {display: none;}
+
+@media (max-width: 640px) {
+    .wk_lb_nav {width: 4.4rem; height: 4.4rem;}
+    .wk_lb_nav svg {width: 1.9rem; height: 1.9rem;}
+    .wk_lb_btn {width: 3.8rem; height: 3.8rem;}
+    .wk_lb_btn svg {width: 1.7rem; height: 1.7rem;}
+    .wk_expand {opacity: 1; transform: none; width: 3rem; height: 3rem; right: 0.7rem; top: 0.7rem;}
+}
+
+/* ==========================================================================
+   手机端：不显示开屏推广弹窗
+   --------------------------------------------------------------------------
+   原站在 <=600px 会把 .main-popup-wrap 变成居中模态 + 全屏遮罩，把整个开屏
+   英雄区（也就是最惊艳的那一屏）盖住；改成右下角小卡片后仍然压在机器人脸上。
+   而手机底部已经有常驻的「联系我 / 作品集」按钮——弹窗提供的入口是重复的，
+   代价却是挡住第一眼。所以手机端直接不显示。
+
+   桌面端（>600px）保持原样：右下角常驻卡片，不遮挡内容。
+   想恢复手机端弹窗：删掉下面的 @media 块即可（纯 CSS，可逆）。
+   ========================================================================== */
+@media (max-width: 600px) {
+    .main-popup-wrap,
+    .main-popup-bg {display: none !important;}
+}

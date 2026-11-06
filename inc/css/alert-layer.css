@@ -1,0 +1,194 @@
+ 
+.msg_layer {
+    --org: #ff6714;
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    padding: 50px 20px 80px;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    pointer-events: none;
+    overflow: auto;
+    transition: 0.2s ease-in-out;
+}
+
+.msg_layer.open {
+    opacity: 1;
+    pointer-events: inherit;
+}
+
+.msg_layer .modal_wrap {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    table-layout: fixed;
+    vertical-align: middle;
+}
+
+.msg_layer .modal_wrap .scroll_box {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.msg_layer .modal_wrap .modal_cont {
+    position: relative;
+    width: 420px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 4.5rem 1.5rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    overflow: visible;
+}
+
+.msg_layer .modal_wrap .modal_cont .cont p {
+    font-size: var(--p2, 20px);
+    font-weight: 700;
+    text-align: center;
+}
+
+.msg_layer .modal_bot_box {
+    display: flex;
+    justify-content: center;
+}
+
+.msg_layer .modal_bot_box .btn {
+    display: inline-block;
+    width: 12rem;
+    height: 4rem;
+    line-height: 3.9rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.msg_layer .modal_bot_box .btn:first-child:nth-last-child(2),
+.msg_layer .modal_bot_box .btn:first-child:nth-last-child(2) ~ .btn {
+    width: 12rem;
+}
+
+.msg_layer .modal_top {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 4rem 2rem;
+}
+
+.msg_layer .modal_top.step {
+    align-items: flex-start;
+}
+
+.msg_layer .modal_top .step {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.msg_layer .modal_top .step + .tit {
+    margin-top: 10px;
+}
+
+.msg_layer .modal_top .tit {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.msg_layer .btn_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2.5rem;
+}
+
+.msg_layer .btn_wrap .btm_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7em 2em;
+    line-height: 1em;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background-color: var(--org);
+    border: 1px solid var(--org);
+    border-radius: 2em;
+    box-shadow: 0 0 0 transparent;
+    transition: box-shadow 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.msg_layer .btn_wrap .btm_btn + .btm_btn {
+    margin-left: 0.7em;
+}
+
+.msg_layer .btn_wrap .btm_btn.wh {
+    background-color: #fff;
+    color: var(--org);
+}
+
+.msg_layer .btn_wrap .btm_btn .txt {
+    font-weight: 600;
+}
+
+ 
+.msg_layer .modal_wrap .modal_cont.project_success {
+    width: 500px;
+    padding: 4.5rem;
+    background-color: var(--org);
+    color: #fff;
+    border-radius: 20px;
+}
+
+.msg_layer .modal_wrap .modal_cont.project_success .cont p,
+.msg_layer .modal_wrap .modal_cont.project_success .tit_box {
+    text-align: left;
+}
+
+.msg_layer .modal_wrap .modal_cont.project_success .tit_box .tit {
+    font-size: var(--h4);
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.msg_layer .modal_wrap .modal_cont.project_success .tit_box .txt {
+    margin-top: 10px;
+    font-size: var(--p3);
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.msg_layer .modal_wrap .modal_cont.project_success .tit_box .ex_txt {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 4rem;
+    font-size: var(--pe);
+    font-weight: 700;
+}
+
+.msg_layer .modal_wrap .modal_cont.project_success .tit_box .ex_txt span {
+    margin-right: 5px;
+}
+
+.msg_layer .modal_wrap .modal_cont.project_success .btn_wrap {
+    margin-top: 60px;
+}
+
+.msg_layer .modal_wrap .modal_cont.project_success .btn_wrap .btm_btn {
+    background-color: #fff;
+    color: var(--org);
+}
+
+@media screen and (max-width: 600px){
+    .msg_layer .modal_wrap .modal_cont.project_success {padding: 25px;}
+.msg_layer .modal_wrap .modal_cont.project_success .tit_box .ex_txt br {display: none;}
+.msg_layer .modal_wrap .modal_cont.project_success .btn_wrap {margin-top: 30px;}
+
+.msg_layer .modal_wrap .modal_cont .cont p br {display: none;}
+}

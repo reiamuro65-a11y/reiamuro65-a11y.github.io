@@ -1,0 +1,74 @@
+
+
+
+
+
+
+
+
+#robot3d-canvas {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	pointer-events: none;
+	opacity: 0;
+	will-change: opacity;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.is-robot3d-intro .intro_sect .counter_cont .counter_character .main_img {
+	opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+.is-robot3d-intro img[data-robot-slot] {
+	opacity: 0;
+	 
+}
+.is-robot3d-intro img[data-robot-slot].is-robot-arrived {
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+.is-robot3d-intro [data-robot-appear] {
+	visibility: hidden !important;
+}
+
+
+
+
+
+
+
+.is-robot3d-intro .is-robot-exchange {
+	opacity: var(--robot-exchange, 1) !important;
+}
