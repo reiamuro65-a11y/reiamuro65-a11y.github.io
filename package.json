@@ -1,0 +1,8 @@
+{
+  "name": "liaoanxin-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "廖安心 · AI 漫剧剪辑师求职作品集（静态托管 + og 域名改写）",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" }
+}
