@@ -1,0 +1,94 @@
+{
+	"base": {
+		"key": "ferndaleHdr",
+		"url": "/inc/models/env/ferndale_studio_07_1k.hdr",
+		"gain": 0.72
+	},
+	"gradient": {
+		"bg": 0.03,
+		"bgTop": 0.05,
+		"bgFloor": 0.025
+	},
+	"lights": [
+		{
+			"on": true,
+			"name": "主光",
+			"power": 3.4,
+			"az": 139,
+			"el": -53,
+			"size": 26,
+			"color": "#ffffff"
+		},
+		{
+			"on": true,
+			"name": "辅光",
+			"power": 5.7,
+			"az": -33,
+			"el": -55,
+			"size": 18,
+			"color": "#ffffff"
+		},
+		{
+			"on": true,
+			"name": "灯光 3",
+			"power": 1.5,
+			"az": 30,
+			"el": -19,
+			"size": 49,
+			"color": "#ffffff"
+		},
+		{
+			"on": true,
+			"name": "灯光 4",
+			"power": 9.4,
+			"az": 109,
+			"el": -50,
+			"size": 37,
+			"color": "#ffffff"
+		}
+	],
+	"intensity": 1,
+	"rotationY": 105,
+	"shadow": {
+		"on": true,
+		"density": 1,
+		"intensity": 1.9,
+		"envScale": 0.62,
+		"mapSize": 256,
+		"bias": -0.0006,
+		"normalBiasRatio": 0.01,
+		"filter": "pcfsoft",
+		"radius": 4,
+		"scope": {
+			"yellow": {
+				"mode": "preset",
+				"preset": "upper",
+				"casters": [],
+				"receivers": [],
+				"receiveAll": true,
+				"bone": "RigHead",
+				"center": [
+					33.854,
+					93.514,
+					-1.082
+				],
+				"extent": 196.7
+			},
+			"acer": {
+				"mode": "preset",
+				"preset": "off",
+				"casters": [],
+				"receivers": [],
+				"receiveAll": true,
+				"bone": "RigHead",
+				"center": [
+					0,
+					1.35,
+					0.2
+				],
+				"extent": 1.1
+			}
+		}
+	},
+	"apply": true
+}
