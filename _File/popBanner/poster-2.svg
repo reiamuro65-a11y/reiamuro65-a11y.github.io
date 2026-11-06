@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1290" height="1548" viewBox="0 0 1290 1548">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#7ec8ff"/><stop offset="1" stop-color="#5a8dff"/></linearGradient></defs>
+<rect width="1290" height="1548" fill="url(#g)"/>
+<circle cx="1058" cy="279" r="206" fill="#ffffff" opacity="0.14"/>
+<circle cx="232" cy="1207" r="284" fill="#000000" opacity="0.10"/>
+<rect x="103" y="619" width="129" height="6" fill="#ffffff" opacity="0.85"/>
+<text x="103" y="805" font-size="122" font-weight="700" fill="#ffffff" font-family="'Noto Sans SC','Pretendard',sans-serif">廖安心 · 求职中</text>
+<text x="103" y="929" font-size="58" fill="#ffffff" opacity="0.85" font-family="'Noto Sans SC','Pretendard',sans-serif">AI 漫剧剪辑师</text>
+<text x="103" y="1440" font-size="46" fill="#ffffff" opacity="0.55" font-family="sans-serif">LIAO ANXIN · PORTFOLIO</text>
+</svg>
