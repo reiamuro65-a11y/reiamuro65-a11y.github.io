@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="645" height="774" viewBox="0 0 645 774">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#7ec8ff"/><stop offset="1" stop-color="#5a8dff"/></linearGradient></defs>
+<rect width="645" height="774" fill="url(#g)"/>
+<circle cx="529" cy="139" r="103" fill="#ffffff" opacity="0.14"/>
+<circle cx="116" cy="604" r="142" fill="#000000" opacity="0.10"/>
+<rect x="52" y="310" width="64" height="6" fill="#ffffff" opacity="0.85"/>
+<text x="52" y="402" font-size="61" font-weight="700" fill="#ffffff" font-family="'Noto Sans SC','Pretendard',sans-serif">廖安心 · 接单中</text>
+<text x="52" y="464" font-size="29" fill="#ffffff" opacity="0.85" font-family="'Noto Sans SC','Pretendard',sans-serif">AI 漫剧剪辑</text>
+<text x="52" y="720" font-size="23" fill="#ffffff" opacity="0.55" font-family="sans-serif">PLACEHOLDER · 占位内容</text>
+</svg>
