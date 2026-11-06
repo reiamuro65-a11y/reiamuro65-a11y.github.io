@@ -1,0 +1,716 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3514" height="580" viewBox="0 0 3514 580">
+  <defs>
+    <filter id="ellipse_51" x="1303" y="344" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_140" x="2764" y="402" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_80" x="610" y="348" width="38" height="39" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_139" x="1959" y="298" width="38" height="39" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-4"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_95" x="1848" y="534" width="38" height="39" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-5"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_138" x="87" y="425" width="38" height="39" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-6"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_60" x="1417" y="460" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-7"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_94" x="2238" y="364" width="39" height="39" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-8"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_135" x="201" y="541" width="39" height="39" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-9"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_65" x="2069" y="344" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-10"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_134" x="32" y="521" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-11"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_133" x="3197" y="454" width="38" height="39" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-12"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-12"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_93" x="2969" y="94" width="39" height="39" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-13"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-13"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_131" x="2892" y="351" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-14"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-14"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_77" x="711" y="70" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-15"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-15"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_130" x="2213" y="88" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-16"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-16"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_92" x="2275" y="182" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-17"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-17"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_129" x="215" y="375" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-18"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-18"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_59" x="1546" y="409" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-19"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-19"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_91" x="2610" y="512" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-20"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-20"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_126" x="330" y="491" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-21"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-21"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_64" x="2221" y="277" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-22"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-22"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_125" x="161" y="470" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-23"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-23"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_75" x="1553" y="200" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-24"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-24"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_123" x="1130" y="470" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-25"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-25"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_53" x="1238" y="160" width="39" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-26"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-26"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_122" x="2699" y="218" width="39" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-27"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-27"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_74" x="548" y="98" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-28"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-28"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_120" x="0" y="257" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-29"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-29"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_58" x="1353" y="276" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-30"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-30"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_119" x="2840" y="248" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-31"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-31"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_73" x="662" y="214" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-32"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-32"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_118" x="2146" y="256" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-33"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-33"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_117" x="114" y="373" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-34"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-34"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_63" x="1949" y="0" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-35"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-35"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_116" x="3443" y="234" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-36"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-36"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_141" x="3476" y="498" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-37"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-37"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_72" x="1314" y="98" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-38"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-38"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_115" x="2727" y="144" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-39"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-39"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_87" x="2803" y="80" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-40"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-40"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_114" x="789" y="241" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-41"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-41"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_54" x="863" y="241" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-42"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-42"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_113" x="2324" y="299" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-43"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-43"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_71" x="172" y="179" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-44"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-44"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_86" x="1574" y="75" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-45"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-45"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_111" x="3145" y="203" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-46"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-46"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_57" x="954" y="373" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-47"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-47"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_110" x="2415" y="431" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-48"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-48"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_70" x="286" y="295" width="39" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-49"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-49"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_109" x="1747" y="353" width="39" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-50"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-50"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_85" x="1798" y="261" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-51"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-51"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_108" x="3259" y="319" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-52"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-52"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_62" x="1664" y="313" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-53"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-53"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_107" x="3090" y="299" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-54"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-54"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_69" x="961" y="163" width="39" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-55"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-55"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_105" x="390" y="338" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-56"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-56"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_55" x="863" y="32" width="39" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-57"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-57"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_104" x="2449" y="178" width="39" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-58"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-58"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_68" x="298" y="58" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-59"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-59"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_102" x="3248" y="98" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-60"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-60"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_56" x="1103" y="236" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-61"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-61"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_101" x="2564" y="294" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-62"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-62"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_67" x="412" y="174" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-63"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-63"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_100" x="1896" y="216" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-64"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-64"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_82" x="1924" y="140" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-65"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-65"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_61" x="1492" y="16" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-66"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-66"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_98" x="3216" y="178" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-67"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-67"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_66" x="1064" y="58" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-68"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-68"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_97" x="2525" y="116" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-69"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-69"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_81" x="2553" y="40" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-70"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-70"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ellipse_96" x="516" y="217" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-71"/>
+      <feFlood flood-color="#fff" flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur-71"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="star" transform="translate(-3252.832 5474.313)">
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_51)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_51-2" data-name="ellipse 51" cx="4" cy="4" r="4" transform="translate(1318 359)" fill="#fff6da" opacity="0.08"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_140)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_140-2" data-name="ellipse 140" cx="4" cy="4" r="4" transform="translate(2779 417)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_80)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <ellipse id="ellipse_80-2" data-name="ellipse 80" cx="4" cy="4.5" rx="4" ry="4.5" transform="translate(625 363)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_139)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <ellipse id="ellipse_139-2" data-name="ellipse 139" cx="4" cy="4.5" rx="4" ry="4.5" transform="translate(1974 313)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_95)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <ellipse id="ellipse_95-2" data-name="ellipse 95" cx="4" cy="4.5" rx="4" ry="4.5" transform="translate(1863 549)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_138)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <ellipse id="ellipse_138-2" data-name="ellipse 138" cx="4" cy="4.5" rx="4" ry="4.5" transform="translate(102 440)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_60)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_60-2" data-name="ellipse 60" cx="4" cy="4" r="4" transform="translate(1432 475)" fill="#fff6da" opacity="0.28"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_94)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_94-2" data-name="ellipse 94" cx="4.5" cy="4.5" r="4.5" transform="translate(2253 379)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_135)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_135-2" data-name="ellipse 135" cx="4.5" cy="4.5" r="4.5" transform="translate(216 556)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_65)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_65-2" data-name="ellipse 65" cx="4" cy="4" r="4" transform="translate(2084 359)" fill="#fff6da" opacity="0.28"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_134)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_134-2" data-name="ellipse 134" cx="4" cy="4" r="4" transform="translate(47 536)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_133)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <ellipse id="ellipse_133-2" data-name="ellipse 133" cx="4" cy="4.5" rx="4" ry="4.5" transform="translate(3212 469)" fill="#fff6da" opacity="0.42"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_93)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_93-2" data-name="ellipse 93" cx="4.5" cy="4.5" r="4.5" transform="translate(2984 109)" fill="#fff6da" opacity="0.05"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_131)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_131-2" data-name="ellipse 131" cx="4" cy="4" r="4" transform="translate(2907 366)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_77)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_77-2" data-name="ellipse 77" cx="4" cy="4" r="4" transform="translate(726 85)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_130)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_130-2" data-name="ellipse 130" cx="4" cy="4" r="4" transform="translate(2228 103)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_92)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_92-2" data-name="ellipse 92" cx="4" cy="4" r="4" transform="translate(2290 197)" fill="#fff6da" opacity="0.05"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_129)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_129-2" data-name="ellipse 129" cx="4" cy="4" r="4" transform="translate(230 390)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_59)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_59-2" data-name="ellipse 59" cx="4" cy="4" r="4" transform="translate(1561 424)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_91)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_91-2" data-name="ellipse 91" cx="4" cy="4" r="4" transform="translate(2625 527)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_126)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_126-2" data-name="ellipse 126" cx="4" cy="4" r="4" transform="translate(345 506)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_64)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_64-2" data-name="ellipse 64" cx="4" cy="4" r="4" transform="translate(2236 292)" fill="#fff6da" opacity="0.11"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_125)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_125-2" data-name="ellipse 125" cx="4" cy="4" r="4" transform="translate(176 485)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_75)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_75-2" data-name="ellipse 75" cx="4" cy="4" r="4" transform="translate(1568 215)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_123)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_123-2" data-name="ellipse 123" cx="4" cy="4" r="4" transform="translate(1145 485)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_53)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <ellipse id="ellipse_53-2" data-name="ellipse 53" cx="4.5" cy="4" rx="4.5" ry="4" transform="translate(1253 175)" fill="#fff6da" opacity="0.28"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_122)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <ellipse id="ellipse_122-2" data-name="ellipse 122" cx="4.5" cy="4" rx="4.5" ry="4" transform="translate(2714 233)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_74)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_74-2" data-name="ellipse 74" cx="4" cy="4" r="4" transform="translate(563 113)" fill="#fff6da" opacity="0.42"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_120)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_120-2" data-name="ellipse 120" cx="4" cy="4" r="4" transform="translate(15 272)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_58)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_58-2" data-name="ellipse 58" cx="4" cy="4" r="4" transform="translate(1368 291)" fill="#fff6da" opacity="0.05"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_119)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_119-2" data-name="ellipse 119" cx="4" cy="4" r="4" transform="translate(2855 263)" fill="#fff6da" opacity="0.28"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_73)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_73-2" data-name="ellipse 73" cx="4" cy="4" r="4" transform="translate(677 229)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_118)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_118-2" data-name="ellipse 118" cx="4" cy="4" r="4" transform="translate(2161 271)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_117)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_117-2" data-name="ellipse 117" cx="4" cy="4" r="4" transform="translate(129 388)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_63)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_63-2" data-name="ellipse 63" cx="4" cy="4" r="4" transform="translate(1964 15)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_116)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_116-2" data-name="ellipse 116" cx="4" cy="4" r="4" transform="translate(3458 249)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_141)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_141-2" data-name="ellipse 141" cx="4" cy="4" r="4" transform="translate(3491 513)" fill="#fff6da" opacity="0.28"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_72)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_72-2" data-name="ellipse 72" cx="4" cy="4" r="4" transform="translate(1329 113)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_115)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_115-2" data-name="ellipse 115" cx="4" cy="4" r="4" transform="translate(2742 159)" fill="#fff6da" opacity="0.15"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_87)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_87-2" data-name="ellipse 87" cx="4" cy="4" r="4" transform="translate(2818 95)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_114)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_114-2" data-name="ellipse 114" cx="4" cy="4" r="4" transform="translate(804 256)" fill="#fff6da" opacity="0.08"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_54)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_54-2" data-name="ellipse 54" cx="4" cy="4" r="4" transform="translate(878 256)" fill="#fff6da" opacity="0.28"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_113)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_113-2" data-name="ellipse 113" cx="4" cy="4" r="4" transform="translate(2339 314)" fill="#fff6da" opacity="0.28"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_71)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_71-2" data-name="ellipse 71" cx="4" cy="4" r="4" transform="translate(187 194)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_86)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_86-2" data-name="ellipse 86" cx="4" cy="4" r="4" transform="translate(1589 90)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_111)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_111-2" data-name="ellipse 111" cx="4" cy="4" r="4" transform="translate(3160 218)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_57)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_57-2" data-name="ellipse 57" cx="4" cy="4" r="4" transform="translate(969 388)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_110)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_110-2" data-name="ellipse 110" cx="4" cy="4" r="4" transform="translate(2430 446)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_70)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <ellipse id="ellipse_70-2" data-name="ellipse 70" cx="4.5" cy="4" rx="4.5" ry="4" transform="translate(301 310)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_109)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <ellipse id="ellipse_109-2" data-name="ellipse 109" cx="4.5" cy="4" rx="4.5" ry="4" transform="translate(1762 368)" fill="#fff6da" opacity="0.11"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_85)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_85-2" data-name="ellipse 85" cx="4" cy="4" r="4" transform="translate(1813 276)" fill="#fff6da" opacity="0.15"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_108)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_108-2" data-name="ellipse 108" cx="4" cy="4" r="4" transform="translate(3274 334)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_62)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_62-2" data-name="ellipse 62" cx="4" cy="4" r="4" transform="translate(1679 328)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_107)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_107-2" data-name="ellipse 107" cx="4" cy="4" r="4" transform="translate(3105 314)" fill="#fff6da" opacity="0.15"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_69)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <ellipse id="ellipse_69-2" data-name="ellipse 69" cx="4.5" cy="4" rx="4.5" ry="4" transform="translate(976 178)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_105)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_105-2" data-name="ellipse 105" cx="4" cy="4" r="4" transform="translate(405 353)" fill="#fff6da" opacity="0.42"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_55)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <ellipse id="ellipse_55-2" data-name="ellipse 55" cx="4.5" cy="4" rx="4.5" ry="4" transform="translate(878 47)" fill="#fff6da" opacity="0.28"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_104)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <ellipse id="ellipse_104-2" data-name="ellipse 104" cx="4.5" cy="4" rx="4.5" ry="4" transform="translate(2464 193)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_68)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_68-2" data-name="ellipse 68" cx="4" cy="4" r="4" transform="translate(313 73)" fill="#fff6da" opacity="0.08"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_102)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_102-2" data-name="ellipse 102" cx="4" cy="4" r="4" transform="translate(3263 113)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_56)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_56-2" data-name="ellipse 56" cx="4" cy="4" r="4" transform="translate(1118 251)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_101)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_101-2" data-name="ellipse 101" cx="4" cy="4" r="4" transform="translate(2579 309)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_67)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_67-2" data-name="ellipse 67" cx="4" cy="4" r="4" transform="translate(427 189)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_100)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_100-2" data-name="ellipse 100" cx="4" cy="4" r="4" transform="translate(1911 231)" fill="#fff6da" opacity="0.28"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_82)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_82-2" data-name="ellipse 82" cx="4" cy="4" r="4" transform="translate(1939 155)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_61)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_61-2" data-name="ellipse 61" cx="4" cy="4" r="4" transform="translate(1507 31)" fill="#fff6da" opacity="0.11"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_98)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_98-2" data-name="ellipse 98" cx="4" cy="4" r="4" transform="translate(3231 193)" fill="#fff6da" opacity="0.28"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_66)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_66-2" data-name="ellipse 66" cx="4" cy="4" r="4" transform="translate(1079 73)" fill="#fff6da" opacity="0.15"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_97)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_97-2" data-name="ellipse 97" cx="4" cy="4" r="4" transform="translate(2540 131)" fill="#fff6da" opacity="0.42"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_81)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_81-2" data-name="ellipse 81" cx="4" cy="4" r="4" transform="translate(2568 55)" fill="#fff6da"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 3252.83, -5474.31)" filter="url(#ellipse_96)" style="mix-blend-mode: hard-light;isolation: isolate">
+      <circle id="ellipse_96-2" data-name="ellipse 96" cx="4" cy="4" r="4" transform="translate(531 232)" fill="#fff6da" opacity="0.15"/>
+    </g>
+  </g>
+</svg>
