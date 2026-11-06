@@ -1,0 +1,67 @@
+{
+ "scenes": {
+  "scene_01": {
+   "w": 3485,
+   "h": 3116,
+   "padW": 3488,
+   "padH": 3116,
+   "repeatX": 0.99914,
+   "repeatY": 1,
+   "sky": "#fefcfd"
+  },
+  "scene_02": {
+   "w": 3135,
+   "h": 3116,
+   "padW": 3136,
+   "padH": 3116,
+   "repeatX": 0.999681,
+   "repeatY": 1,
+   "sky": "#dbf5cf"
+  },
+  "scene_03": {
+   "w": 3009,
+   "h": 3116,
+   "padW": 3012,
+   "padH": 3116,
+   "repeatX": 0.999004,
+   "repeatY": 1,
+   "sky": "#fed485"
+  },
+  "scene_04": {
+   "w": 3135,
+   "h": 3116,
+   "padW": 3136,
+   "padH": 3116,
+   "repeatX": 0.999681,
+   "repeatY": 1,
+   "sky": "#aba6fc"
+  },
+  "scene_05": {
+   "w": 3248,
+   "h": 3116,
+   "padW": 3248,
+   "padH": 3116,
+   "repeatX": 1,
+   "repeatY": 1,
+   "sky": "#ffd097"
+  },
+  "scene_06": {
+   "w": 3000,
+   "h": 3116,
+   "padW": 3000,
+   "padH": 3116,
+   "repeatX": 1,
+   "repeatY": 1,
+   "sky": "#f8ffff"
+  },
+  "scene_00": {
+   "w": 2779,
+   "h": 3116,
+   "padW": 2780,
+   "padH": 3116,
+   "repeatX": 0.99964,
+   "repeatY": 1,
+   "sky": "#dcf3fa"
+  }
+ }
+}
